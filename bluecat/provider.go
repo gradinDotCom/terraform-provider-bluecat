@@ -37,7 +37,7 @@ func Provider() terraform.ResourceProvider {
 			"bluecat_endpoint": {
 				Type:        schema.TypeString,
 				Required:    true,
-				DefaultFunc: schema.EnvDefaultFunc("BLUECAT_ENDPOINT", nil),
+				DefaultFunc: schema.EnvDefaultFunc("BLUECAT_ENDPOINT", false),
 				Description: "The BlueCat Address Manager endpoint hostname",
 			},
 		},
