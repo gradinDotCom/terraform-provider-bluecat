@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/plugin"
-	"github.com/umich-vci/terraform-provider-bluecat/bluecat"
+	"github.com/gradinDotCom/terraform-provider-bluecat/bluecat"
 )
 
 func main() {
